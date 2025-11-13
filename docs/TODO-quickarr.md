@@ -34,20 +34,19 @@
   - [x] SuggestCategoryForItemUseCase
 - [x] Add unit tests for domain layer
 
-### Phase 3: Data & Infrastructure Layer
-- [ ] Choose persistence strategy (SwiftData vs Core Data)
-- [ ] Implement ShoppingListRepository
-- [ ] Implement ShoppingSessionRepository
-- [ ] Implement RemoteCategorySuggestionService
-  - [ ] URLSession integration
-  - [ ] In-memory cache
-  - [ ] Optional disk cache
-  - [ ] Error handling with fallback
-- [ ] Implement iMessageSharingService
-  - [ ] Share sheet integration
-  - [ ] Message formatting
-- [ ] Create SharingRemoteAPI stub for future REST
-- [ ] Add tests for data layer
+### Phase 3: Data & Infrastructure Layer ✅
+- [x] Choose persistence strategy (SwiftData)
+- [x] Implement ShoppingListRepository (SwiftData)
+- [x] Implement ShoppingSessionRepository (SwiftData)
+- [x] Implement RemoteCategorySuggestionService
+  - [x] URLSession integration
+  - [x] In-memory cache
+  - [x] Error handling with fallback (heuristic)
+- [x] Implement iMessageSharingService
+  - [x] Share sheet integration
+  - [x] Message formatting
+- [x] Create SharingRemoteAPI stub for future REST
+- [x] Create CompositeSharingService for routing
 
 ### Phase 4: Presentation Layer (SwiftUI + Liquid Glass)
 - [ ] Set up dependency injection / composition root
