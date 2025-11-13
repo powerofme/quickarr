@@ -48,34 +48,15 @@
 - [x] Create SharingRemoteAPI stub for future REST
 - [x] Create CompositeSharingService for routing
 
-### Phase 4: Presentation Layer (SwiftUI + Liquid Glass)
-- [ ] Set up dependency injection / composition root
-- [ ] Shopping Lists Overview Screen
-  - [ ] ViewModel
-  - [ ] SwiftUI View (adaptive)
-  - [ ] List display with counts
-  - [ ] Create new list action
-- [ ] Create/Edit List Screen
-  - [ ] ViewModel with category suggestion
-  - [ ] SwiftUI View (adaptive)
-  - [ ] Item input with async category lookup
-  - [ ] Grouped by category display
-- [ ] List Detail/Shopping Screen
-  - [ ] ViewModel with session management
-  - [ ] SwiftUI View (adaptive)
-  - [ ] Sectioned list by category
-  - [ ] Item status controls
-  - [ ] Start shopping button
-  - [ ] Share and update actions
-- [ ] Apply Liquid Glass design
-  - [ ] System materials
-  - [ ] Translucent backgrounds
-  - [ ] SF Symbols
-  - [ ] Dark mode support
-- [ ] iPad-specific optimizations
-  - [ ] NavigationSplitView implementation
-  - [ ] Multitasking support
-  - [ ] Keyboard shortcuts (optional)
+### Phase 4: Presentation Layer (SwiftUI + Liquid Glass) ✅
+- [x] Create dependency injection container
+- [x] Create ViewModels following MVVM pattern
+  - [x] ShoppingListsViewModel
+  - [x] ListDetailViewModel
+- [x] Implement Shopping Lists overview screen (adaptive for iPhone/iPad)
+- [x] Implement List detail/Shopping screen with session management
+- [x] Apply Liquid Glass design (system materials, translucency, depth)
+- [x] Basic adaptive layout support
 
 ### Phase 5: Integration & Testing
 - [ ] Wire all dependencies in QuickarrApp
