@@ -8,31 +8,31 @@
 - [x] Create Xcode project structure (universal iOS/iPadOS target)
 - [x] Set up Clean Architecture folder structure
 
-### Phase 2: Domain Layer Implementation
-- [ ] Define core entities
-  - [ ] ShoppingList
-  - [ ] ShoppingItem
-  - [ ] ItemCategory (enum)
-  - [ ] ItemStatus (enum with associated values)
-  - [ ] SubstituteItem
-  - [ ] ShoppingSession
-  - [ ] ShoppingChangeEvent
-- [ ] Define domain protocols
-  - [ ] ShoppingListRepository
-  - [ ] ShoppingSessionRepository
-  - [ ] CategorySuggestionService
-  - [ ] SharingService
-  - [ ] SharingRemoteAPI
-- [ ] Implement use cases
-  - [ ] CreateShoppingListUseCase
-  - [ ] AddItemToListUseCase
-  - [ ] UpdateItemStatusUseCase
-  - [ ] StartShoppingSessionUseCase
-  - [ ] GetActiveShoppingSessionsUseCase
-  - [ ] ShareListUseCase
-  - [ ] SendUpdateUseCase
-  - [ ] SuggestCategoryForItemUseCase
-- [ ] Add unit tests for domain layer
+### Phase 2: Domain Layer Implementation ✅
+- [x] Define core entities
+  - [x] ShoppingList
+  - [x] ShoppingItem
+  - [x] ItemCategory (enum)
+  - [x] ItemStatus (enum with associated values)
+  - [x] SubstituteItem
+  - [x] ShoppingSession
+  - [x] ShoppingChangeEvent
+- [x] Define domain protocols
+  - [x] ShoppingListRepository
+  - [x] ShoppingSessionRepository
+  - [x] CategorySuggestionService
+  - [x] SharingService
+  - [x] SharingRemoteAPI
+- [x] Implement use cases
+  - [x] CreateShoppingListUseCase
+  - [x] AddItemToListUseCase
+  - [x] UpdateItemStatusUseCase
+  - [x] StartShoppingSessionUseCase
+  - [x] GetActiveShoppingSessionsUseCase
+  - [x] ShareListUseCase
+  - [x] SendUpdateUseCase
+  - [x] SuggestCategoryForItemUseCase
+- [x] Add unit tests for domain layer
 
 ### Phase 3: Data & Infrastructure Layer
 - [ ] Choose persistence strategy (SwiftData vs Core Data)
