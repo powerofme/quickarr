@@ -8,7 +8,7 @@
 import Foundation
 
 /// Represents a substitute for an unavailable item
-public struct SubstituteItem: Codable, Identifiable, Sendable {
+public struct SubstituteItem: Codable, Identifiable, Sendable, Equatable {
     public let id: UUID
     public let name: String
     public let category: ItemCategory
