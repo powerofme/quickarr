@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import SwiftData
 
 struct ShoppingListsView: View {
     @State private var viewModel: ShoppingListsViewModel

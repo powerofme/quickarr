@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import SwiftData
 
 struct ListDetailView: View {
     @Environment(DependencyContainer.self) private var dependencies
