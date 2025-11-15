@@ -7,10 +7,12 @@
 
 import Foundation
 import SwiftData
+import Observation
 
 /// Container for managing app dependencies
 @MainActor
-public class DependencyContainer: ObservableObject {
+@Observable
+public class DependencyContainer {
     // Repositories
     public let listRepository: ShoppingListRepository
     public let sessionRepository: ShoppingSessionRepository
