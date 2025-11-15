@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import SwiftData
 
 struct AdaptiveRootView: View {
     let dependencies: DependencyContainer
